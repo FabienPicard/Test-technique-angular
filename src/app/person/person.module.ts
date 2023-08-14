@@ -10,11 +10,13 @@ import { PersonGeneratorComponent } from "./person-generator/person-generator.co
 import { PersonListComponent } from "./person-list/person-list.component";
 import { PersonRoutingModule } from "./person-routing.module";
 import { PersonService } from "./person.service";
+import { GenderPipe } from "./gender.pipe";
 
 @NgModule({
 	declarations: [
 		PersonListComponent,
-		PersonGeneratorComponent
+		PersonGeneratorComponent,
+		GenderPipe
 	],
 	imports: [
 		CommonModule,
